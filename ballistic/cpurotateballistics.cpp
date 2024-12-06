@@ -138,7 +138,7 @@ bool CPUElemParams::calculateInitialAngles(const T &vx, const T &vy,
 
 
 //------------------------------------------------------------------------------
-//создание и удаление калькулятора траекторий в МПСК (Моисеевский)
+//создание и удаление калькулятора траекторий в МПСК
 CPUMPSKRotatePropagator::CPUMPSKRotatePropagator(const T& ib, const T& ih,
                                                  const T &imaxheight,
                                      IStaticAtmosphere::ISATypes atm_type,
